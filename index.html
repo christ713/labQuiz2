@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Evaluation</title>
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <h1>
+        <i class="fa-solid fa-chart-column"></i>
+        Score Evaluation
+    </h1>
+
+    <div id="result">
+
+        <div class="student-info">
+
+            <div>
+                <span class="icon">
+                    <i class="fa-solid fa-user"></i>
+                </span>
+                Name:
+                <span id="nameResult">-</span>
+            </div>
+
+            <div>
+                <span class="icon">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </span>
+                Score:
+                <span id="scoreResult">-</span>
+            </div>
+
+            <div>
+                <span class="icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </span>
+                Remark:
+                <span id="remarkResult">-</span>
+            </div>
+
+        </div>
+
+        <hr class="grades-line">
+
+        <div class="grades-title">
+            <i class="fa-solid fa-graduation-cap"></i>
+            GRADES
+        </div>
+
+        <div class="grades">
+
+            <div>
+                <span class="grade-icon">
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <strong>90 - 100</strong><br>
+                Excellent
+            </div>
+
+            <div>
+                <span class="grade-icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </span>
+                <strong>75 - 89</strong><br>
+                Passed
+            </div>
+
+            <div>
+                <span class="grade-icon">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </span>
+                <strong>Below 75</strong><br>
+                Failed
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

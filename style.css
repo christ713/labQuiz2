@@ -1,0 +1,100 @@
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #090762, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+     .container {
+    width: 420px;
+    max-width: 90%;
+    background: rgb(86, 166, 232);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+    color: #333;
+    margin-bottom: 10px;
+    }
+
+    h1 i {
+    margin-right: 8px;
+    }
+
+    #result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #d2d9f3;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #444;
+
+    }
+
+    /* Student Information */
+    .student-info {
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+    .student-info div {
+    margin-bottom: 8px;
+    }
+
+    /* Icons */
+    .icon {
+    display: inline-block;
+    width: 30px;
+    margin-right: 5px;
+    font-size: 18px;
+    }
+
+    /* Line before grades */
+    .grades-line {
+    border: none;
+    border-top: 2px solid rgba(0, 0, 0, 0.35);
+    margin: 18px 0 12px;
+    }
+
+    /* Grades Title */
+    .grades-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    }
+
+    .grades-title i {
+    margin-right: 6px;
+    }
+
+    /* Grades */
+    .grades {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+    .grades div {
+    text-align: center;
+    min-width: 85px;
+    }
+
+    /* Grade Icons */
+    .grade-icon {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+
+    }
